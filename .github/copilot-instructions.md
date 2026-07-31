@@ -1,11 +1,13 @@
-# General Repository Guidelines
+## Security
 
-- Keep pull requests small and focused on a single change.
-- Write clear commit messages in the imperative mood.
-- Add or update tests when behavior changes.
-- Keep documentation in sync with code updates.
-- Follow existing code style and project conventions.
-- Prefer descriptive names for variables, functions, and files.
-- Avoid unrelated refactors in feature branches.
-- Ensure CI checks pass before requesting review.
-- Include a concise PR description with context and validation steps.
+- Validate input sanitization practices.
+- Search for risks that might expose user data.
+- Prefer loading configuration and content from the database instead of hard coded content. If absolutely necessary, load it from environment variables or a non-committed config file.
+
+## Code Quality
+
+- Use consistent naming conventions.
+- Try to reduce code duplication.
+- Prefer maintainability and readability over optimization.
+- If a method is used a lot, try to optimize it for performance.
+- Prefer explicit error handling over silent failures.
