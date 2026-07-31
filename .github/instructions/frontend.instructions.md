@@ -1,11 +1,9 @@
 ---
-applyTo: "src/static/**/*"
+applyTo: "*.html,*.css,*.js"
 ---
 
-## Frontend Instructions
+## Frontend Guidelines
 
-- Keep HTML markup valid and accessible.
-- Prefer semantic elements and readable structure.
-- Keep CSS scoped, simple, and maintainable.
-- Preserve responsive behavior and avoid layout regressions.
-- Ensure visible UI copy is clear and user-friendly.
+- Use accessibility attributes (alt text, aria labels) and color schemes.
+- Use responsive design for compatibility with mobile devices.
+- Validate HTML structure and semantic elements
